@@ -20,6 +20,7 @@ public class MatrixHasPath{
             boolean flag = hasPath(matrix,rows,cols,str);
             System.out.println(flag);
         }
+        in.close();
     }
     private static boolean hasPath(char[] matrix,int rows,int cols,char[] str){
         boolean[] visited = new boolean[rows*cols];
